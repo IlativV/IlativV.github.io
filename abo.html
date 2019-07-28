@@ -8,3 +8,9 @@
         <a>Du wirst weitergeleitet...</a>
   </body>
 </html>
+
+<?php
+header("HTTP/1.1 301 Moved Permanently");
+header("Location: http://www.domain.de/der-neue-name.php");
+header("Connection: close");
+?>
