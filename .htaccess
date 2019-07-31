@@ -1,4 +1,7 @@
 RewriteEngine on
+
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html
+
+Redirect /abo https://www.youtube.com/DangerZockt/UCwKEb3NjRKMkNQt1P9q4hjA?sub_confirmation=1
