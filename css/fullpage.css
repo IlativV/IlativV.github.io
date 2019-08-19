@@ -270,9 +270,9 @@ html.fp-enabled,
 #menu{
 	position:fixed;
 	top:0;
-	left:0;
+	right:0;
 	height: 40px;
-	z-index: 30;
+	z-index: 70;
 	width: 100%;
 	padding: 0;
 	margin:0;
