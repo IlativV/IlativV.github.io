@@ -3,7 +3,7 @@
 
 $(document).ready(function(){
   $('#fullpage').fullpage({
-    sectionsColor: ['rgb(0, 123, 214)', 'rgb(66, 66, 66)', 'rgb(211, 205, 99)', 'rgb(190, 186, 3'],
+    sectionsColor: ['#33cc33', '#99ff33', '#6699ff', '#ff6699'],
   });
 });
 
