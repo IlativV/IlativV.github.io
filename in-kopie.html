@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>DaNgErZoCkT.dE</title>
+	<link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+	<style>
+
+	h1{
+		font-size: 5em;
+		font-family: arial,helvetica;
+		color: #fff;
+		margin:0;
+		padding:0;
+	}
+	.intro p{
+		color: #fff;
+	}
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+	}
+
+
+	.myContent{
+		height: 175px;
+	}
+
+	</style>
+
+</head>
+<body>
+
+	<ul id="menu">
+	  <li data-menuanchor="anchor1"><a href="#kurzeVorstellung">kurze Vorstellung</a></li>
+	  <li data-menuanchor="anchor2"><a href="#projekte">Projekte</a></li>
+	  <li data-menuanchor="anchor3"><a href="#uploadplan">Uploadplan</a></li>
+	</ul>
+
+<div id="fullpage">
+	<div class="section" id="section0">
+		<div class="intro">
+			<h1>DaNgErZoCkT</h1>
+
+			<p>Herzlich Wilkommen auf meiner Website,
+			Ich drück den Spielen mein Stempel auf und ihr seid dabei!
+			Ich würde mich über Bewertungen und Kommentare freuen, auch und ganz besonders über konstruktive Kritik.
+			Damit wünsche ich viel Spaß und hoffe der kommt auch bei euch an.
+			Euer Danger :)</p>
+
+		</div>
+	</div>
+	<div class="section" id="section1">
+	    <div class="slide" id="slide1">
+			<div class="intro">
+				<h1>yese yes</h1>
+			</div>
+		</div>
+
+	    <div class="slide" id="slide2">
+			<h1>ich stehe hier lol</h1>
+			<img src="imgs/iphone-blue.png" alt="iphone" id="iphone-two" />
+		</div>
+
+	</div>
+	<div class="section" id="section2">
+		<div class="myContent" class="intro">
+			<h1>i bims der letze</h1>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="fullpage.js"></script>
+
+<script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+        anchors: ['kurzeVorstellung', 'projekte', 'uploadplan'],
+        sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
+        navigation: true,
+        navigationPosition: 'right',
+        navigationTooltips: ['Kurz Vorstellung', 'Projekte', 'Uploadplan']
+    });
+</script>
+
+</body>
+</html>
