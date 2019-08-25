@@ -1,5 +1,13 @@
 
+/*--------------------------------------------*/
 
+$(document).ready(function(){
+  $('#fullpage').fullpage({
+    sectionsColor: ['rgb(0, 123, 214)', 'rgb(66, 66, 66)', 'rgb(211, 205, 99)', 'rgb(190, 186, 3'],
+  });
+});
+
+/*--------------------------------------------*/
 
 /*!
  * fullPage 3.0.7
@@ -4187,11 +4195,3 @@ if(window.jQuery && window.fullpage){
         };
     })(window.jQuery, window.fullpage);
 }
-
-/*--------------------------------------------*/
-
-$(document).ready(function(){
-  $('#fullpage').fullpage({
-    sectionsColor: ['rgb(0, 123, 214)', 'rgb(66, 66, 66)', 'rgb(211, 205, 99)', 'rgb(190, 186, 3'],
-  });
-});
